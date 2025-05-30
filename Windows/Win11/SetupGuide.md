@@ -49,23 +49,24 @@
 
 ### Step 4: Installation Process
 
-11. **Begin Installation**
+9. **Begin Installation**
     - Windows will copy files and install automatically
     - The system will restart several times
     - **Do not remove the USB** until installation completes
 
-12. **First Boot Setup**
+10. **First Boot Setup**
     - Wait for "Getting ready" process to complete
     - The system will boot to the initial setup screen
 
 ---
 
-## ⚙️ Initial Windows Setup (OOBE)
+## ⚙️ Initial Windows Setup 
 
-### Step 5: Out-of-Box Experience Configuration
+### Step 5: Admin Login
 
-13. **Region Selection**
-    - Choose: **Ireland**
+13. **Login**
+    - Enter: **Tarbh.Tech**
+    - Password: **************** (1Password)
 
 14. **Keyboard Layout**
     - Choose: **United Kingdom**
