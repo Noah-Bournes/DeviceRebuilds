@@ -110,7 +110,8 @@
 ### Step 10: M1 Install (Croom Medical)
 
 30. Open **File Explorer**  
-    - Search for `cpm-hq-m1/m1`  
+    - Search for `\\cpm-hq-m1`  
+    - Select M1
 31. Locate the **Setup file**  
     - Right-click → **Run as Administrator**  
 32. Two M1 apps will appear  
