@@ -6,7 +6,7 @@
 ## 📋 Prerequisites
 
 - A computer or virtual machine ready for installation  
-- **Windows 10 ISO** downloaded and burned to a USB (minimum 8GB) using [Rufus](https://rufus.ie) or the Media Creation Tool  
+- **Windows 10 ISO** downloaded and burned to a USB (minimum 8GB) using [Rufus](https://rufus.ie)
 - Be aware this process will **erase all data** on the selected drive  
 
 ---
@@ -34,7 +34,6 @@
 
 ### Step 3: Drive Partitioning
 
-8. **Choose Custom: Install Windows only (advanced)**  
 9. Select the **target SSD/HDD**  
    - ⚠️ **This will erase all partitions on that drive**  
 10. **Delete all existing partitions**  
@@ -57,14 +56,12 @@
 
 ## ⚙️ Initial Windows Setup
 
-### Step 5: Admin Account Setup
+### Step 5: Admin Account SignIn
 
-13. On the first boot:  
-    - Choose **Set up for personal use** or **organization**, as needed  
-14. Create the primary user:  
+13. Sign In with Admin Account:  
     - Username: **Tarbh.Tech**  
     - Password: ******** (stored in 1Password)  
-15. Skip Microsoft account sign-in if preferred by choosing **Offline account**
+
 
 ---
 
