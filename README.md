@@ -1,6 +1,6 @@
-# DeviceRebuilds
+# Device Rebuilds
 
-Welcome to the **DeviceRebuilds** repository.
+Welcome to the **Device Rebuilds** repository.
 
 This repository contains detailed, step-by-step documentation for rebuilding and reimaging various types of devices. It is maintained by a technician at a Managed Service Provider (MSP) to support consistent, efficient, and secure device setup across different platforms.
 
