@@ -49,49 +49,44 @@
 
 ### Step 4: Installation Process
 
-11. **Begin Installation**
+9. **Begin Installation**
     - Windows will copy files and install automatically
     - The system will restart several times
     - **Do not remove the USB** until installation completes
 
-12. **First Boot Setup**
+10. **First Boot Setup**
     - Wait for "Getting ready" process to complete
     - The system will boot to the initial setup screen
 
 ---
 
-## ⚙️ Initial Windows Setup (OOBE)
+## ⚙️ Initial Windows Setup 
 
-### Step 5: Out-of-Box Experience Configuration
+### Step 5: Admin Login
 
-13. **Region Selection**
-    - Choose: **Ireland**
+13. **Login**
+    - Enter: **Tarbh.Tech**
+    - Password: **************** (1Password)
 
 14. **Keyboard Layout**
     - Choose: **United Kingdom**
     - Skip adding a second keyboard layout
 
-15. **Network Connection**
-    - **For Ethernet**: Connection will be automatic
-    - **For Wi-Fi**: Select your network and enter password
-    - Click **"Next"**
-
-16. **Microsoft Account Setup**
-    - **Option 1**: Sign in with existing Microsoft account
-    - **Option 2**: Create new Microsoft account
-    - **Option 3**: Click **"Sign-in options"** → **"Domain join instead"** for local account
-
-17. **Privacy Settings**
-    - Review and configure privacy options according to your preferences:
-      - **Location**: Recommended to disable for business use
-      - **Find my device**: Enable if desired
-      - **Diagnostic data**: Set to "Required diagnostic data only"
-      - **Tailored experiences**: Disable for privacy
-      - **Advertising ID**: Disable for privacy
 
 ---
 
 ## 🔧 Post-Installation Configuration
+
+### Step 6: Drivers
+
+13. **Login**
+    - Enter: **Tarbh.Tech**
+    - Password: **************** (1Password)
+
+14. **Keyboard Layout**
+    - Choose: **United Kingdom**
+    - Skip adding a second keyboard layout
+
 
 ### Step 6: Essential Windows Updates
 
