@@ -27,7 +27,7 @@
 ### Step 2: License and Installation Type
 
 5. **Select Windows Edition**
-   - Choose: **Windows 11 Pro** (recommended for business use)
+   - Choose: **Windows 11 Pro**
    - Accept the license terms
 
 ### Step 3: Disk Partitioning
@@ -40,7 +40,7 @@
    - Select each partition and click **"Delete"**
    - Continue until you have only "Unallocated Space"
    - Ensure you don't delete the USB key
-   - If no partitions appear - go to drivers select the usb key - cpm tools - drivers - storage drivers  
+   - If no partitions appear - go to drivers select the usb key - cpm tools - drivers - storage drivers - vmd - select - install
    - ⚠️ **Final warning**: This will permanently erase all data
 
 8. **Create New Partition**
@@ -50,51 +50,47 @@
 ### Step 4: Installation Process
 
 9. **Begin Installation**
-    - Windows will copy files and install automatically
-    - The system will restart several times
-    - **Do not remove the USB** until installation completes
-
-10. **First Boot Setup**
-    - Wait for "Getting ready" process to complete
-    - The system will boot to the initial setup screen
-
+    - Windows will copy files and install automatically.
+    - The system will restart several times.
+    - **Do not remove the USB** until installation completes.
+      
 ---
 
 ## ⚙️ Initial Windows Setup 
 
 ### Step 5: Admin Login
 
-13. **Login**
+10. **Login**
     - Enter: **Tarbh.Tech**
     - Password: **************** (1Password)
-
-14. **Keyboard Layout**
-    - Choose: **United Kingdom**
-    - Skip adding a second keyboard layout
-
-
+      
 ---
 
 ## 🔧 Post-Installation Configuration
 
 ### Step 6: Drivers
 
-13. **Login**
-    - Enter: **Tarbh.Tech**
-    - Password: **************** (1Password)
+11. **Install Drivers**
+    - Search online : **(Manufacturer) driver install.**
+    - Install Support Assistant: *Each provider will have a version of this assistant to scan the device and identify the drivers needed.*
+    - Install and download any drivers which are identified.
+    - Search "Device Manager" and look for necessary drivers.
+    - Look up any drivers you didn't find on the manufacturer site.
+   
+### Step 7: .NET 3.5
 
-14. **Keyboard Layout**
-    - Choose: **United Kingdom**
-    - Skip adding a second keyboard layout
+12. **Install .NET**
+    - Search online : **(Manufacturer) driver install.**
+    - Click **Start** → **Search** → **Turn Windows Features on or off**
+    - Select .NET 3.5 and install
+    - This will take several minutes.
+   
 
-
-### Step 6: Essential Windows Updates
-
-Once on the desktop, perform these critical updates:
+### Step 8: Essential Windows Updates
 
 1. **Open Settings**
    - Press **Windows key + I**
-   - Or click **Start** → **Settings** (gear icon)
+   - Or click **Start** → **Settings** 
 
 2. **Install Windows Updates**
    - Go to **Windows Update** (left sidebar)
@@ -107,111 +103,26 @@ Once on the desktop, perform these critical updates:
    - Click **"Advanced options"** → **"Optional updates"**
    - Install driver updates if available
 
-### Step 7: Configure Windows Settings
+### Step 9: Find device info for asset management
 
-#### System Configuration
+8. **Locate Hardware Specs**
+   - Go to **Search Bar** → **Task Manager**
+   - Select Performance
+   - CPU, Memory, GPU
+   **Locate Device Name**
+   - Go to **Search Bar** → **Terminal**
+   - Enter "Hostname"
+   - Device Name will be displayed (Includes serial number)
 
-4. **Set Computer Name**
-   - Go to **Settings** → **System** → **About**
-   - Click **"Rename this PC"**
-   - Enter desired name (e.g., `TARBHTECH-PC01`)
-   - **Restart when prompted**
+### Step 10: M1 Install (Croom Medical)
 
-5. **Configure Power Settings**
-   - Go to **Settings** → **System** → **Power**
-   - Set **"Screen and sleep"** times according to preference
-   - Click **"Additional power settings"**
-   - Select **"High performance"** or **"Balanced"**
-
-#### Security Configuration
-
-6. **Configure Windows Defender**
-   - Go to **Settings** → **Privacy & security** → **Windows Security**
-   - Click **"Open Windows Security"**
-   - Verify all protection areas show green checkmarks
-   - Enable **"Cloud-delivered protection"** and **"Automatic sample submission"**
-
-7. **Configure User Account Control (UAC)**
-   - Search for **"UAC"** in Start menu
-   - Set to **"Always notify"** for maximum security
-   - Or **"Default"** for balanced security/usability
-
-#### Privacy Configuration
-
-8. **Configure Privacy Settings**
-   - Go to **Settings** → **Privacy & security**
-   - Review and configure:
-     - **General**: Disable advertising and tracking options
-     - **Speech**: Disable if not needed
-     - **Diagnostics & feedback**: Set to **"Required diagnostic data only"**
-     - **Activity history**: Disable if privacy is a concern
-
-### Step 8: Install Essential Software
-
-#### Web Browsers
-9. **Install Web Browser**
-   - **Chrome**: Download from https://www.google.com/chrome/
-   - **Firefox**: Download from https://www.mozilla.org/firefox/
-   - **Edge**: Already installed (update via Windows Update)
-
-#### Security Software
-10. **Install Additional Security Tools** *(Optional)*
-    - **Malwarebytes**: For additional malware protection
-    - **7-Zip**: For file compression/extraction
-    - Download only from official websites
-
-#### Essential Utilities
-11. **Install System Utilities**
-    - **Windows Terminal**: Install from Microsoft Store
-    - **PowerToys**: Download from Microsoft Store or GitHub
-    - **Notepad++**: For advanced text editing
-
-### Step 9: Configure Windows Features
-
-12. **Enable/Disable Windows Features**
-    - Search for **"Turn Windows features on or off"**
-    - **Enable useful features**:
-      - ✅ **Windows Subsystem for Linux** (if needed)
-      - ✅ **Hyper-V** (Windows 11 Pro only, if virtualization needed)
-    - **Disable unnecessary features**:
-      - ❌ **Internet Explorer 11** (deprecated)
-      - ❌ **Windows Media Player** (if not needed)
-
-13. **Configure File Explorer**
-    - Open **File Explorer**
-    - Click **View** → **Show** → **File name extensions**
-    - Click **View** → **Show** → **Hidden items**
-    - Go to **File** → **Options** → **View** tab
-    - **Uncheck**: "Hide extensions for known file types"
-    - **Check**: "Show hidden files, folders, and drives"
-
----
-
-## 🌐 Network and Remote Access Configuration
-
-### Step 10: Network Setup
-
-14. **Configure Network Profile**
-    - Go to **Settings** → **Network & internet**
-    - Click on your connection (Wi-Fi or Ethernet)
-    - Set network profile to:
-      - **Private**: For home/office networks
-      - **Public**: For public networks
-
-15. **Enable Remote Desktop** *(Optional)*
-    - Go to **Settings** → **System** → **About**
-    - Click **"Advanced system settings"**
-    - In **Remote** tab, enable **"Enable Remote Desktop"**
-    - Configure user permissions as needed
-
-### Step 11: Windows Defender Firewall
-
-16. **Configure Firewall**
-    - Search for **"Windows Defender Firewall"**
-    - Verify firewall is enabled for both networks
-    - Configure exceptions if needed for specific applications
-
----
+8. **Locate File**
+   - Go to **File Explorer** → **Search Bar** → "cpm-hq-m1/m1"
+   - Locate the Setup file
+   - Run as admin
+   - You will see two M1 apps
+   - Click Run as Admin on both
+   - This will take several minutes
 
 ## ✅ Verification Steps
 
@@ -219,30 +130,22 @@ Once on the desktop, perform these critical updates:
 After completing all steps, verify everything is working:
 
 1. **Check System Information**:
-   - Press **Windows key + Pause** (or go to Settings → System → About)
+   - Press (Settings → System → About)
    - Verify Windows 11 version and system specifications
 
-2. **Verify Windows Activation**:
-   - Go to **Settings** → **System** → **Activation**
-   - Should show "Windows is activated"
-
-3. **Test Windows Updates**:
+2. **Test Windows Updates**:
    - Go to **Settings** → **Windows Update**
    - Should show "You're up to date"
 
-4. **Check Device Manager**:
+3. **Check Device Manager**:
    - Right-click **Start** → **Device Manager**
    - Verify no devices show warning/error icons
 
+4. **Verify .NET**:
+   - Go to **Start** → **Search** → "Turn Windows features on or off"
+   - .NET 3.5 Should show as selected
+
 ---
-
-## 🎯 Final Notes
-
-- **Edition**: Windows 11 Pro recommended
-- **User Account**: Microsoft account or local account configured
-- **Updates**: All critical updates installed
-- **Security**: Windows Defender and firewall enabled
-- **Privacy**: Settings configured for business use
 
 Your Windows 11 system is now ready for business use and productivity applications!
 
